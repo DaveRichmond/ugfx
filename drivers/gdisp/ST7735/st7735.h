@@ -1,5 +1,9 @@
-#ifndef _ST7735_H_
-#define _ST7735_H_
+
+#define LCD_VERTICAL_MAX        		160
+#define LCD_HORIZONTAL_MAX      		128
+
+#define ST7735_TFTWIDTH  128
+#define ST7735_TFTHEIGHT 160
 
 #define ST7735_NOP     0x00
 #define ST7735_SWRESET 0x01
@@ -46,6 +50,3 @@
 
 #define ST7735_GMCTRP1 0xE0
 #define ST7735_GMCTRN1 0xE1
-
-#endif
-
